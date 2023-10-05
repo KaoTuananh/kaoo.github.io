@@ -240,32 +240,37 @@
     width: 290px;
     }
     
-    max-width: 768px {
-    .container{
-    flex-direction: column-reverse;
-    }
+    @media (max-width: 768px) {
+        .container{
+            flex-direction: column-reverse;
+        }
     
-    table {
-    font-size: 14px;
-    }
+        table {
+            font-size: 14px;
+        }
     
-    td, th {
-    padding: 6px;
-    }
+        td, th {
+            padding: 6px;
+        }
     
-    .table {
-    order: -1;
-    }
+        .table {
+            order: -1;
+        }
+      
+        .main__link {
+            display: block;
+        }
     
-    .main__link {
-    display: block;
-    }
-    
-    .main__link li {
+        .main__link li {
     text-align: center;
-    }
+        }
     
-    .main__link li a {
-    margin-bottom: 10px;
-    }
+        .main__link li a {
+            margin-bottom: 10px;
+        }
+    
+        
+    
+     
+        
     }
