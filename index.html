@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Задание 2</title>
+</head>
+<body>
+<div id="main-aside-wrapper"></div>
+<header class="main">
+<div class="main__wrapper">
+<div class="main__logo">
+<img src="https://sun9-41.userapi.com/impf/c638316/v638316720/25745/6zUNMfzlTV0.jpg?size=2133x2133&quality=96&sign=adcb0f2d1c0b5b3daf575860a52306fe&c_uniq_tag=5qGMSBaXA0jjNFanCDbFmKEPLejqokmP9Pb8bAr9Aqg&type=album" class="main__logo-img" alt="#">
+<div class="main__logo-name">
+<p>Кубанский Государственный Университет</p>
+</div>
+</div>
+<div class="main__links">
+<ul class="main__link">
+<li><a href="#form">Форма</a></li>
+<li><a href="#table--link">Таблица</a></li>
+<li><a href="https://www.youtube.com/">Другие страницы</a></li>
+
+
+</ul>
+</div>
+</div>
+
+</header>
+
+<div class="main__wrapper">
+
+
+<nav class="navigation">
+<div class="navigation__links">
+<h2>Гиперссылки</h2>
+<ul>
+<!--1-->
+<li><a href="http://kubsu.ru">Кубгу</a></li>
+<!--2-->
+<li><a href="https://kubsu.ru">Кубгу</a></li>
+<!--3-->
+
+
+<li><a href="httpS://kubsu.ru"><img src="https://static.rustore.ru/apk/1816534207/content/ICON/d289ec11-2dde-4b64-92df-88dd36f4457b.jpg" alt="кубгу" class="ima"></a></li>
+
+<!--4-->
+<li><a href="#form">ссылка на внутреннюю страницу</a></li>
+<!--5-->
+<li><a href="http://kubsu.ru">Ссылка на главную</a></li>
+<!--6-->
+<li><a href="#form">Ccылкa на фрагмент</a></li>
+<!--7-->
+<li><a href=" https://github.com/?param1=1&param2=2&param3=3">Ссылка с 3-мя параметрами</a></li>
+<!--8-->
+<li><a href="index.html">Главная страница</a></li>
+<!--9-->
+<li><a href="#form">С параметром id</a></li>
+<!--10-->
+<li><a href="about.html">about</a></li>
+<!--11-->
+<li><a href="page2.html"> на страницу в каталоге уровнем выше текущего</a></li>
+<!--12-->
+<li><a href="page3.html">на страницу в каталоге двумя уровнями выше</a></li>
+<!--13-->
+<li><p>контекстная <a href="#">ссылка</a> в тексте абзаца</p></li>
+<!--14-->
+<li><a href="https://www.youtube.com/">На внешний ресурс</a></li>
+<!--15-->
+<li>
+<map name="clickable">
+<area shape="circle" coords="309,164,60" href="httpS://kubsu.ru" alt = "#">
+<area shape="rect" coords="185,125,268,352" href="https://youtube.com" alt = "#">
+</map>
+<img usemap="#clickable" src="https://avatars.mds.yandex.net/i?id=181027b72c12358c1e98adf5d749f81d27f0d7af-10021482-images-thumbs&n=13" alt="picture" class="ima">
+</li>
+<!--16-->
+<li><a href="#">Пустая ссылка</a></li>
+<!--17-->
+<li><a>Ссылка без href</a></li>
+<!--18-->
+<li><a href="http://kubsu.ru" rel="nofollow">запрещающая переход</a></li>
+<!--19-->
+<li><a href="http://kubsu.ru" rel="noindex">запрещаяющая индексацию</a></li>
+<!--20-->
+
+<ol>
+<li><a href="https://www.thoughtco.com/thmb/ESs3C9qSOkfcPzEC8WfwGf2d1VY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/computer-language-155597183-5a6760c5ebb9e100373eb0c1.jpg" title="1"> Картинка1</a></li>
+<li> <a href="https://www.thoughtco.com/thmb/ESs3C9qSOkfcPzEC8WfwGf2d1VY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/computer-language-155597183-5a6760c5ebb9e100373eb0c1.jpg" title="2">Картинка2 </a></li>
+</ol>
+
+<!--21-->
+<li> <a href="ftp://pr:123@test.rebex.net/www/213">Файл на ftp</a></li>
+</ul>
+</div>
+
+</nav>
+<!--Таблица (Расписание пар)-->
+
+<section Id="table--link" class="table">
+<div class="title"><h2>Расписание пар</h2></div>
+<table class="table">
+<tbody>
+<tr class="table__element table__element-odd">
+<th>День недели</th>
+<th>Начало пар</th>
+<th>Окончание пар</th>
+<th>Количество пар</th>
+</tr>
+<tr class="table__element table__element-even">
+<td>Понедельник</td>
+<td>9:30</td>
+<td>15.30</td>
+<td>4</td>
+</tr>
+<tr class="table__element table__element-odd">
+<td>Вторник</td>
+<td>8:00</td>
+<td>14:00</td>
+<td>4</td>
+</tr>
+<tr class="table__element table__element-even">
+<td>Среда</td>
+<td>8:00</td>
+<td>10:50</td>
+<td>2</td>
+</tr>
+<tr class="table__element table__element-odd">
+<td>Четверг</td>
+<td>11:10</td>
+<td>12:30</td>
+<td>1</td>
+</tr>
+<tr class="table__element table__element-even">
+<td>Пятница</td>
+<td>8:00</td>
+<td>12:30</td>
+<td>3</td>
+</tr>
+<tr class="table__element
+КубГУ
+www.kubsu.ru
+Site not found · GitHub Pages
+petrosyansamson.github.io
+Уведомление о переадресации
+www.google.com
+table__element-odd">
+<td>Суббота</td>
+<td colspan="3"></td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+
+<form id="form" action="#">
+<h2>Форма</h2>
+<p>
+<input required type="text" name="name" placeholder="Имя"><Br>
+<input required type="tel" name="tel" placeholder="телефон"><Br>
+<input required type="email" name="email" placeholder="e-mail"><br>
+<input required type="date" name="date" ><Br>
+<br>
+<h2>Пол </h2>
+<input required type="radio" name="sex" value="">Мужской<Br>
+<input type="radio" name="sex" value="">Женский<Br>
+<br>
+<h2>Любимый язык программирования </h2>
+<input type="checkbox" name="lang" value="">pascal<Br>
+<input type="checkbox" name="lang" value="">C<Br>
+<input type="checkbox" name="lang" value="">C++<Br>
+<input type="checkbox" name="lang" value="">JS<Br>
+<input type="checkbox" name="lang" value="">PHP<Br>
+<input type="checkbox" name="lang" value="">Python<Br>
+<input type="checkbox" name="lang" value="">Java<Br>
+<input type="checkbox" name="lang" value="">Haskel<Br>
+<input type="checkbox" name="lang" value="">Clojure<Br>
+<input type="checkbox" name="lang" value="">Prolog<Br>
+<input type="checkbox" name="lang" value="">Scala<Br>
+<br>
+<textarea name="bio" id="bio" placeholder="Биография" cols="30" rows="3"></textarea>
+<input required type="checkbox" name="agree" >с контрактом ознакомлен(а)<Br>
+
+
+<input type="submit">
+<p>
+</form>
+</div>
+
+<footer class="footer">
+<p>
+The end
+</p>
+
+
+
+</footer>
+
+
+
+</body>
+</html>
