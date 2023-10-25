@@ -10,7 +10,7 @@
     
     
     body {
-    background-image: url('fon4.png');
+    background-color: hsl(0, 1%, 61%);
     background-repeat: 10;
     background-size: 2;
     }
@@ -22,7 +22,7 @@
     
     .main {
     width: 100%;
-    background-color: #009dff;
+    background-color: hwb(0 81% 19%);
     min-height: 50px;
     padding: 0;
     margin: 0;
@@ -91,7 +91,7 @@
     {
     
     text-decoration: none;
-    color: #060135;
+    color: hwb(250 18% 79%);
     
     }
     
@@ -105,7 +105,7 @@
     .navigation__links ul li a
     {
     text-decoration: none;
-    color: black;
+    color: #0e0d0d;
     }
     .navigation__links ul li a:hover
     {
@@ -145,7 +145,7 @@
     th,
     td {
     padding: 8px;
-    border: 1px solid #009dff;
+    border: 1px solid hsl(0, 0%, 0%);
     word-wrap: break-word;
     white-space: normal;
     }
@@ -170,7 +170,7 @@
     
     .footer
     {
-    background-color: hsl(66, 47%, 82%);
+    background-color: hwb(0 81% 19%);
     
     margin: 0 auto;
     padding: 0;
@@ -186,12 +186,12 @@
     
     .table__element-odd
     {
-    background-color: hsl(66, 47%, 82%);
+    background-color: hwb(0 0% 100%);
     }
     
     .table__element-even
     {
-    background-color: hsl(66, 47%, 82%);
+    background-color: hwb(0 0% 100%);
     }
     
     
@@ -218,7 +218,7 @@
     margin-top: 10px;
     width: 90px;
     margin-left: 0;
-    background-color: hsl(71, 65%, 81%);
+    background-color: rgb(0, 0, 0);
     }
     
     td
