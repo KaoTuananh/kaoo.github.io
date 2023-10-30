@@ -47,7 +47,7 @@
 <li><a href="httpS://kubsu.ru"><img src="https://static.rustore.ru/apk/1816534207/content/ICON/d289ec11-2dde-4b64-92df-88dd36f4457b.jpg" alt="кубгу" class="ima"></a></li>
 
 <!--4-->
-<li><a href="#form">ссылка на внутреннюю страницу</a></li>
+<li><a href="#form">Cсылка на внутреннюю страницу</a></li>
 <!--5-->
 <li><a href="http://kubsu.ru">Ссылка на главную</a></li>
 <!--6-->
@@ -61,11 +61,11 @@
 <!--10-->
 <li><a href="about.html">about</a></li>
 <!--11-->
-<li><a href="page2.html"> на страницу в каталоге уровнем выше текущего</a></li>
+<li><a href="page2.html"> На страницу в каталоге уровнем выше текущего</a></li>
 <!--12-->
-<li><a href="page3.html">на страницу в каталоге двумя уровнями выше</a></li>
+<li><a href="page3.html">На страницу в каталоге двумя уровнями выше</a></li>
 <!--13-->
-<li><p>контекстная <a href="#">ссылка</a> в тексте абзаца</p></li>
+<li><p>Контекстная <a href="#">ссылка</a> в тексте абзаца</p></li>
 <!--14-->
 <li><a href="https://www.youtube.com/">На внешний ресурс</a></li>
 <!--15-->
@@ -81,9 +81,9 @@
 <!--17-->
 <li><a>Ссылка без href</a></li>
 <!--18-->
-<li><a href="http://kubsu.ru" rel="nofollow">запрещающая переход</a></li>
+<li><a href="http://kubsu.ru" rel="nofollow">Запрещающая переход</a></li>
 <!--19-->
-<li><a href="http://kubsu.ru" rel="noindex">запрещаяющая индексацию</a></li>
+<li><a href="http://kubsu.ru" rel="noindex">Запрещаяющая индексацию</a></li>
 <!--20-->
 
 <ol>
@@ -188,6 +188,41 @@ table__element-odd">
 <p>
 </form>
 </div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="title"><h2>Калькулятор</h2></div>
+    <title>Калькулятор стоимости заказа</title>
+</head>
+<body>
+<label for="quantity">Количество товара:</label>
+<input type="number" id="quantity" name="quantity"><br><br>
+
+<label for="product">Выберите товар:</label>
+<select id="product" name="product">
+    <option value="159">Товар 1 - 159 рублей</option>
+    <option value="250">Товар 2 - 250 рублей</option>
+    <option value="305">Товар 3 - 305 рублей</option>
+</select><br><br>
+
+<button onclick="calculate()">Подсчитать стоимость</button><br><br>
+
+<p id="result"></p>
+
+<script>
+    function calculate() {
+     let quantity = document.getElementById("quantity").value;
+     let product = document.getElementById("product").value;
+     if (quantity < 0) {
+      quantity = 0;
+     }
+     let result = quantity * product;
+     document.getElementById("result").innerHTML = "Стоимость заказа: " + result + " рублей";
+    }
+</script>
+</body>
+</html>
 
 <footer class="footer">
 <p>
