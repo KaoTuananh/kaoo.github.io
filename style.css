@@ -195,7 +195,18 @@
     }
     
     
+    .block5{
+        max-width: 1100px;
+        background-color: hsl(0, 1%, 61%);
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
     
+    .img2{
+        width:350px; 
+        height: 200px;
+    }
     
     h3, h2
     {
@@ -268,9 +279,6 @@
         .main__link li a {
             margin-bottom: 10px;
         }
+       
     
-        
-    
-     
-        
     }
