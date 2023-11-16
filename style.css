@@ -49,6 +49,36 @@
     
     }
     
+    *{
+        font-family: Areal;
+    }
+    
+    .b-popup{
+        width:100%;
+        min-height:100%;
+        background-color: rgba(0,0,0,0.5);
+        overflow:hidden;
+        position:fixed;
+        top:0px;
+    }
+    .b-popup .b-popup-content{
+        margin: 0px auto;
+        width:100px;
+        height: 40px;
+        padding:10px;
+        background-color: #9e9c9c;
+        border-radius:5px;
+        box-shadow: 0px 0px 10px #000;
+    }
+    
+    .block3{
+         max-width: 960px;
+         background-color: hsl(0, 1%, 61%);
+         margin: 0 auto;
+         margin-top: 20px;
+         padding: 10px;
+    }
+    
     .main__logo
     {
     display: flex;
